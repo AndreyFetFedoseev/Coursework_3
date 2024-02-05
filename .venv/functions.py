@@ -49,3 +49,7 @@ for dict_ in list_last_opers[:1]:
     # operat.append(oper_1)
 print(oper_1.date_conversion())
 print(oper_1.from_conversion())
+print(oper_1.to_conversion())
+print(oper_1.description)
+print(oper_1.operationAmount['amount'])
+print(oper_1.operationAmount['currency']['name'])
