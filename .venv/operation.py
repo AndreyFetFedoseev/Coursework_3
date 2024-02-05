@@ -1,7 +1,6 @@
 class Operation:
 
-    def __init__(self, id='fetid', state='fetstate', date1='fetdate', operationAmount='fetoA', description='fetd',
-                 from1='fetfrom', to='fetto'):
+    def __init__(self, id, state, date1, operationAmount, description, from1, to):
         self.id = id
         self.state = state
         self.date1 = date1
