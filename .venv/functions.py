@@ -28,5 +28,4 @@ def sort_last_five_operations(list_dict):
     sort_list_operations = sorted(list_dict, key=lambda x: x.get("date"))
     list_last_opers = sort_list_operations[-5:]
     list_last_opers.reverse()
-    # list_last_operation = 
     return list_last_opers
