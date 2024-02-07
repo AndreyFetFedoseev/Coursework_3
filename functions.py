@@ -1,5 +1,4 @@
 import json
-from operation import Operation
 
 
 def load_list_operations(file_name):
